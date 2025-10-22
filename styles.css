@@ -117,10 +117,21 @@ dialog::backdrop{
   box-shadow: var(--shadow);
   text-align:center;
 }
+.dialog-card .emoji {
+  width: 64px; 
+  height: 64px; 
+  margin: 0 auto 8px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  border-radius: 999px; 
+  background: #fff3da; 
+  box-shadow: 0 8px 20px rgba(255,160,50,0.08);
+}
 .dialog-card .emoji img {
-  width: 80px;  /* Задаем иконке ширину 40px */
-  height: 80px; /* и высоту 40px */
-  object-fit: contain; /* Гарантирует, что иконка впишется, а не растянется */
+  width: 40px; 
+  height: 40px; 
+  object-fit: contain;
 }
 
 .dialog-card h3{ margin:8px 0 18px; font-size:1.06rem; color:var(--black); }
